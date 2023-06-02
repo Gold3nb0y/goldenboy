@@ -1,4 +1,4 @@
-baseurl = "http://127.0.0.1:1313/"
+baseurl = "https://gold3nb0y.github.io/goldenboy/"
 languageCode = "en-us"
 # Add it only if you keep the theme in the `themes` directory.
 # Remove it if you use the theme as a remote Hugo Module.
@@ -83,7 +83,7 @@ sectionPagesMenu = 'side'
 
     [languages.en.params.logo]
       logoText = "Goldenboy"
-      logoHomeLink = "/"
+      logoHomeLink = "/goldenboy/"
 
     [languages.en.menu]
       [[languages.en.menu.main]]
