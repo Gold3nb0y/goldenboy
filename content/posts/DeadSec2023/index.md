@@ -4,9 +4,19 @@ tags = ["PWN", "Author", "writeup"]
 description = "I developed several PWN challenges for the deadsec 2023 CTF, below is a series of writeups with the intended solutions as well as the development process I used to make them"
 date = "June 2nd 2023"
 author = "GoldenBoy"
-labels = ["youtube-writeups","one-punch","popcorn", "chatroom", "conclusion"]
+labels = ["introduction","youtube-writeups","one-punch","popcorn", "chatroom", "conclusion"]
+cover = "engagement.png"
 #do not include @ cover = "" tags = ["", ""] keywords = ["", ""] description = "" showFullContent = false readingTime = false hideComments = false color = "" #color from the theme settings 
 +++
+# Introduction
+A few weeks ago, my team DeadSec hosted our very first CTF! I was responsible for building the PWN challenges. This is my first time doing something like this, and I am still relatively new to C development. It was challenging, but a lot of fun and I learned a lot! 
+
+Overall, around 500 teams completed the welcome challenge, while about 1000 signed up to compete! pretty good number for our first time. 
+
+![engagement](engagement.png)
+
+### Source code and author solves
+it's on [my github](https://github.com/Gold3nb0y/Deadsec-2023-pwn/) please send me an email if you Have any questions! 
 
 # YouTube writeups
 The Youtuber [SloppyJoePirates](https://www.youtube.com/@SloppyJoePirates) did a Great Job explaining his solutions to one-punch and Popcorn. I would really reccommend checking it out if you are like me and preffer watching things to reading them! You can watch it [here](https://www.youtube.com/watch?v=G05F5YCiNYM)

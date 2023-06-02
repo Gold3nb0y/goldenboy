@@ -1,0 +1,8 @@
+
+.my-nav{
+    position: fixed;
+    height: 40%;
+    width: 20%;
+    background-color: red;
+    display: block;
+}

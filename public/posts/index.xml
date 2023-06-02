@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Terminal</title>
+    <link>http://127.0.0.1:1313/posts/</link>
+    <description>Recent content in Posts on Terminal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://127.0.0.1:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DeadSec CTF 2023 authors writeups</title>
+      <link>http://127.0.0.1:1313/posts/deadsec2023/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://127.0.0.1:1313/posts/deadsec2023/</guid>
+      <description>YouTube writeups The Youtuber SloppyJoePirates did a Great Job explaining his solutions to one-punch and Popcorn. I would really reccommend checking it out if you are like me and preffer watching things to reading them! You can watch it here
+ONE PUNCH Idea Being a weeb, one of my favorite anime is One Punch Man. the story of a lonley hero who can destroy anything with a single punch!
+I took inspiration from this to design the first challenge, one-punch.</description>
+    </item>
+    
+    <item>
+      <title>Runic HTB Cyber Apocolypse 2023</title>
+      <link>http://127.0.0.1:1313/posts/htb_ca2023/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://127.0.0.1:1313/posts/htb_ca2023/</guid>
+      <description>exploit summary the vulnerability in the program occurs within the edit function. When editing a rune, the new name is copied from the stack to the malloced ptr. it is read using read and copied to the heap using strcpy. this copied value is then used to grab the size value from the items list.
+the error occurs in that read is able to read null bytes, and continue reading after.</description>
+    </item>
+    
+  </channel>
+</rss>
