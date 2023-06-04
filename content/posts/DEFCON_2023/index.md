@@ -49,7 +49,7 @@ This took a bit of time, but was pretty easy, considering there is a syscall wra
     r.sendline(b"/bin/sh"+p32(0)) #send the input to be read by crafted syscall
 ```
 
-Once again, I want to make clear that this would not have been possible without the genius of our crypto players! Great work Shadowwws, ContronThePanda, vishiswoz, Quasar, and especially Genni!
+Once again, I want to make clear that this would not have been possible without the genius of our crypto players! Great work Shadowwws, JoshL, ContronThePanda, vishiswoz, Quasar, and especially Genni!
 
 All in all, I'm just happy that I could help our team solve the challenge! Even if it was only though a small little piece.
 
