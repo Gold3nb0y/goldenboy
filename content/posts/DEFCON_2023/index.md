@@ -15,7 +15,7 @@ It was a lot of fun, and I learned a lot. In particular, I learned about how pro
 I helped out with the pwn side of about 7 challenges, including ifuckup, open house, and 5 of the live challenges.
 
 ### Open House
-for open house, one of my teammates wrote an [excelent writeup](https://toasterpwn.github.io/posts/defcon-ctf-2023-qualifiers/) that I recommend you check out!
+for open house, one of my teammates (toasterpwn) wrote an [excelent writeup](https://toasterpwn.github.io/posts/defcon-ctf-2023-qualifiers/) that I recommend you check out!
 
 ### ifuckup
 Regarding ifuckup, I helped out in a very small way. In short, my teammates figured out a way to break the prng used to generate the random address of the stack and code base. So, I just had to build a rop chain that spawns a shell using syscalls.
