@@ -48,11 +48,14 @@ This took a bit of time, but was pretty easy, considering there is a syscall wra
     r.sendline(b"/bin/sh"+p32(0)) #send the input to be read by crafted syscall
 ```
 
-Once again, I want to make clear that this would not have been possible without the genius of our crypto players! Great work Shadwwws, ContronThePanda, vishiswoz, Quasar, and especially Genni!
+Once again, I want to make clear that this would not have been possible without the genius of our crypto players! Great work Shadowwws, ContronThePanda, vishiswoz, Quasar, and especially Genni!
 
 All in all, I'm just happy that I could help our team solve the challenge! Even if it was only though a small little piece.
 
 If one of my teammates releases a full writeup of the challenge I will link to it here!
+
+### livectf
+Overall was a lot of fun, I am not the fastest coder so I mainly helped with ideas and brainstorming. My favorite challenge was liveCTF3 which revolved around designing your own elf link.so. I thought it was cool, and something I had never really thought about before. In the end, you can manually place some shellcode in the executable section and trigger it at the end of main execution.
 
 ### Conclusion
 I am looking forward to playing again next year, hopefully after I get better at reverse engineering!
