@@ -16,7 +16,7 @@ I didn't have a whole lot of time to play this weekend, but I did do some of the
 
 The Challenges I completed were Sentence and Notebook
 
-Overall, I thought that they interesting, definitely a good refresher on some of the basics. I really liked sentence in particular. 
+Overall, I thought the challenges were interesting, definitely a good refresher on some of the basics. I really liked sentence in particular. 
 
 I wish I had more time to checkout Infernal break as it seemed really challenging!
 
