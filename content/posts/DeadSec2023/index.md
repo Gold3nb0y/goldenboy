@@ -13,8 +13,6 @@ A few weeks ago, my team DeadSec hosted our very first CTF! I was responsible fo
 
 Overall, around 500 teams completed the welcome challenge, while about 1000 signed up to compete! pretty good number for our first time. 
 
-![engagement](engagement.png)
-
 ### Source code and author solves
 it's on [my github](https://github.com/Gold3nb0y/Deadsec-2023-pwn/) please send me an email if you Have any questions! 
 
