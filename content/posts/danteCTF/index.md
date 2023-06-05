@@ -16,12 +16,12 @@ I didn't have a whole lot of time to play this weekend, but I did do some of the
 
 The Challenges I completed were Sentence and Notebook
 
-Overall, I thought that they weren't too difficult, but definitely a good refresher on some of the basics. I really liked sentence, as it gives you a WWW primitive which I used to overwrite the return pointer for a round about rop. 
+Overall, I thought that they interesting, definitely a good refresher on some of the basics. I really liked sentence in particular. 
 
-I did however think that notebook was too similar. Notebook follows the same exploitation path, of printf for leaks followed by buffer overflow and rop. It was still an interesting problem, and I was distracted for a bit trying to mess with the heap, I would have like to see something a bit different though.
+I wish I had more time to checkout Infernal break as it seemed really challenging!
 
 # Sentence
-Like I mentioned above, you are given a printf vulnerability to leak some values, and then can write a chosen 8 byte value any where in memory! A nice Write What Where(WWW) challenge.
+In this challenge you are given a printf vulnerability to leak some values, and then can write a chosen 8 byte value any where in memory! A nice Write What Where(WWW) challenge.
 
 ### Vulnerable Code Segment
 ![vulnerable code](sentence_vulnerable.png)
